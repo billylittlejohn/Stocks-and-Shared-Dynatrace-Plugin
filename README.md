@@ -33,7 +33,7 @@
 	
 11.	Check the response to see if the plugin has been uploaded successfully, if this was successful you will be able to see the plugin in the Dynatrace UI 
 
-12.	Try and connect to the ActiveGate Endpoint via the Dynatrace UI. If this does not work, you will see an errror message, and troubleshoot
+12.	Try and connect to the ActiveGate Endpoint via the Dynatrace UI. If this does not work, you will see an errror message, and you will need to troubleshoot by looking in the logs to see what went wrong. 
 	- Logs can be found in `C:\ProgramData\dynatrace\remotepluginmodule\log\remoteplugin`
 	- Look for the `ruxitagent_remotepluginagent_[PID].0.log` for the word `severe`
 
