@@ -19,7 +19,6 @@
 7.	Right click and open the Python file using IDLE and see if it runs (it wont) 
     -	Install the dependencies, and take note of what you have installed, you will need these later 
     -	`Yfinance`
-    -	`logger`
     -  `pandas==1.0.1`
     -	Run the python file, it should now work. Do not proceed if the plugin does not run in IDLE 
     
