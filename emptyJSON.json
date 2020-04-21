@@ -1,0 +1,62 @@
+{
+  "name": "custom.remote.python.name",
+  "version": "1.7",
+  "type": "python",
+  "entity": "CUSTOM_DEVICE",
+  "metricGroup": "tech.Custom_Plugin", 
+  "processTypeNames": ["PYTHON"],
+  "technologies": ["CustomPluginTechnology"],
+  "favicon": "https://logo.clearbit.com/dynatrace.com",
+  "source": {
+    "package": "CustomPlugin",
+    "className": "DynatraceNYSE",
+    "install_requires": ["requests>=2.6.0", "yfinance", "pandas==1.0.1", "lxml", "numpy"],
+    "activation": "Remote"
+  },
+  "metrics": [
+    {
+      "entity": "CUSTOM_DEVICE",
+      "timeseries": {
+        "key": "dayHigh",
+        "unit": "Count",
+        "displayname": "Metric Display Name"
+      }
+    }
+  ],
+  "configUI": {
+        "displayName": "Config Display Name"
+    },
+     "ui": {
+       "keymetrics" : [
+      {
+        "key": "dayHigh",
+        "aggregation": "avg",
+        "mergeaggregation": "avg",
+        "displayname": "Average Daily High"
+      }
+    ],
+        "charts": [
+            {
+                "group": "Important",
+                "title": "Daily High Chart",
+                "description": "Demo description",
+                "explanation": "Not used",
+                "link": "Demo link",
+                "series": [
+                    {
+                        "key": "dayHigh",
+                        "displayname": "Daily High",
+                        "aggregation": "avg",
+                        "mergeaggregation": "avg",
+                        "color": "#00a6fb",
+                        "seriestype": "line",
+                        "rightaxis": false,
+                        "stacked": false,
+                        "unit": "Count",
+                        "metricexplanation": "Not used"
+                    }
+                ]
+            }
+        ]
+    }
+}
