@@ -13,6 +13,7 @@
 4.	Create a new folder within the SDK and call it something like `Live Plugins`
 
 5.	Create a folder in your new folder called NYSE Plugin 
+	- Versioning is important, you cannot update a plugin with the same version name, so you may want to include the version in this folder name. Check the JSON file in this repository for the version.
 
 6.	Move the Python and JSON files from this repository into that folder 
 
