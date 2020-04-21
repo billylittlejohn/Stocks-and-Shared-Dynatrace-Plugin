@@ -1,4 +1,4 @@
-#Phase 1 - Uploading the Plugin 
+# Phase 1 - Uploading the Plugin 
 
 1.	Install an Environment ActiveGate (Windows)
 
@@ -34,13 +34,13 @@
 
 12.	Try and connect to the ActiveGate Endpoint via the Dynatrace UI. If this does not work, you will see an errror message  
 
-#Phase 2 - Reviewing what we have done 
+# Phase 2 - Reviewing what we have done 
 
 
 
 
 
-#Phase 3 - Cleaning up the Plugin 
+# Phase 3 - Cleaning up the Plugin 
 
 
 
