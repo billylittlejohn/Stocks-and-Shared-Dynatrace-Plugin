@@ -1,3 +1,6 @@
+Important notes
+
+
 # Phase 1 - Uploading the Plugin 
 
 1.	Install an Environment ActiveGate (Windows)
