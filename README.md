@@ -42,13 +42,22 @@ Important notes
 
 13.    If this was successfull you will be able to see metrics via the Technologies tab, look out for one called CustomPluginTechnology 
 
-# Phase 2 - Reviewing what we have done 
+# Phase 2 - Update the plugin 
 
-As you can probably notice, this plugin is not complete. There is a mixture of names relating to stocks, and names with default values. In this next phase we will be reviewing the python, and editing the JSON. 
+As you can probably notice, this plugin is not complete. There is a mixture of names relating to stocks, and names with default values. In this next phase we will be reviewing the python, and editing the JSON. You should create a backup of the files which are are working before making the following changes. 
 
 1.	Open the python file and read through the explinations in the comments
 2. 	Flick through the attached powerpoint to see explanations regarding the JSON 
 3.	Edit the JSON to complete the plugin, this is up to you. I would advise you to have the group as the industry e.g. Technology, and the device as the name of the stock, in this case the stock is Dynatrace and the first metric is DailyHigh. 
+	- Change the name of the python and JSON file from emptyJSON and EmptyPlugin
+The following changes will all be in the JSON
+	- Change the name of the `package` int the `source` section, this must match the new name of the python file 
+	- change the `name` field, this must always begin with custom.remote.python.
+	- change the `version`
+	- change the `technologies`
+	- change the `display name` from within the `metrics` section
+	- change the `display name` from within the `configUI` section
+	
 4. 	Upload the changes by using the same sdk commands as in phase 1, remember that if you do not change the version name in the JSON, this will fail
 
 # Phase 3 - Further challenges 
