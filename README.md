@@ -51,7 +51,7 @@ As you can probably notice, this plugin is not complete. There is a mixture of n
 # Phase 3 - Further challenges 
 
 1. Add a new metric to the plugin, there is enough information in the python file to allow you to do this 
-2. TBC
+2. Add a new Stock to the plugin from a new industry
 
 
 
