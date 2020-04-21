@@ -49,8 +49,7 @@ As you can probably notice, this plugin is not complete. There is a mixture of n
 1.	Open the python file and read through the explinations in the comments
 2. 	Flick through the attached powerpoint to see explanations regarding the JSON 
 3.	Edit the JSON to complete the plugin, this is up to you. I would advise you to have the group as the industry e.g. Technology, and the device as the name of the stock, in this case the stock is Dynatrace and the first metric is DailyHigh. 
-	- Change the name of the python and JSON file from emptyJSON and EmptyPlugin
-The following changes will all be in the JSON
+	- Change the name of the python and JSON file from emptyJSON and EmptyPlugin. The remaining changes will all be made in the JSON only. Do not alter the python yet. 
 	- Change the name of the `package` int the `source` section, this must match the new name of the python file 
 	- change the `name` field, this must always begin with custom.remote.python.
 	- change the `version`
