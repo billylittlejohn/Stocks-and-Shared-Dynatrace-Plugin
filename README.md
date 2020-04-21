@@ -37,7 +37,7 @@
 	- Logs can be found in `C:\ProgramData\dynatrace\remotepluginmodule\log\remoteplugin`
 	- Look for the `ruxitagent_remotepluginagent_[PID].0.log` for the word `severe`
 
-13. 	If this was successfull you will be able to see metrics via the Technologies tab, look out for one called CustomMetricsTechnology 
+13.    If this was successfull you will be able to see metrics via the Technologies tab, look out for one called CustomPluginTechnology 
 
 # Phase 2 - Reviewing what we have done 
 
