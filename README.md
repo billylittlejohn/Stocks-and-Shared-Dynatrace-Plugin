@@ -18,25 +18,26 @@
 6.	Move the Python and JSON files from this repository into that folder 
 
 7.	Right click and open the Python file using IDLE and see if it runs (it wont) 
-    -	Install the dependencies, and take note of what you have installed, you will need these later 
+    -	Install the dependencies via the windows command prompt, use https://pypi.org/ to find the install commands. Take note of what you have installed, you will need to reference these later. An 
     -	`Yfinance`
     -  `pandas==1.0.1`
     -	Run the python file, it should now work. Do not proceed if the plugin does not run in IDLE 
     
-8.	In the windows CLI, navigate to the folder where the JSON and Python are
-	a. This must be done as Admin 
+8.	In the windows CLI, navigate to the folder where the JSON and Python are 
 
-9.	Run the following command to build the plugin and push the files to the correct place on the ActiveGate and the Dynatrace tenant 
+9.	Run the following command as Admin to build the plugin and push the files to the correct directory on the ActiveGate and the Dynatrace tenant 
     -	`Plugin_sdk build_plugin`
     
 10.	Enter ‘n’ when asked if you have a token file, then enter your API token
     - If you have not done so already, create an API token and esure you have the correct permissions to push the plugin to the cluster 
 	
-11.	Check the response to see if the plugin has been uploaded successfully, if this was successful you will be able to see the plugin in the Dynatrace UI 
+11.	Check the response to see if the plugin has been uploaded successfully, if this was successful you will be able to see the plugin in the Dynatrace UI via Settings - Monitored Technologies - Custom Extentions
 
-12.	Try and connect to the ActiveGate Endpoint via the Dynatrace UI. If this does not work, you will see an errror message, and you will need to troubleshoot by looking in the logs to see what went wrong. 
+12.	Click on the Plugin in the Dynatrace UI and try to connect to the ActiveGate Endpoint. If this does not work, you will see an errror message, and you will need to troubleshoot by looking in the logs to see what went wrong. 
 	- Logs can be found in `C:\ProgramData\dynatrace\remotepluginmodule\log\remoteplugin`
 	- Look for the `ruxitagent_remotepluginagent_[PID].0.log` for the word `severe`
+
+13. 	If this was successfull you will be able to see metrics via the Technologies tab, look out for one called CustomMetricsTechnology 
 
 # Phase 2 - Reviewing what we have done 
 
