@@ -21,7 +21,8 @@ Important notes
 6.	Move the Python and JSON files from this repository into that folder 
 
 7.	Right click and open the Python file using IDLE and see if it runs (it wont) 
-    -	Install the dependencies via the windows command prompt, use https://pypi.org/ to find the install commands. Take note of what you have installed, you will need to reference these later. An 
+    -	Input your tennant URL and token into the requied fields	
+    -	Install the dependencies via the windows command prompt, use https://pypi.org/ to find the install commands. Take note of what you have installed, you will need to reference these later.
     -	`Yfinance`
     -  `pandas==1.0.1`
     -	Run the python file, it should now work. Do not proceed if the plugin does not run in IDLE 
