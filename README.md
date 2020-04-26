@@ -56,7 +56,7 @@ As you can probably notice, this plugin is not complete. There is a mixture of n
 	- Change the name of the `package` int the `source` section, this must match the new name of the python file 
 	- change the `name` field, this must always begin with custom.remote.python e.g. custom.remote.python.stocks
 	- change the `version` 
-	- change the `technologies` to something like `Stocks and Shared`
+	- change the `technologies` to something like `Stocks and Shares`
 	- change the `display name` from within the `metrics` section to something like `Daily High`
 	- change the `display name` from within the `configUI` section to something like `Stocks and Shares Plugin`
 	
