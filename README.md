@@ -61,5 +61,6 @@ As you can probably notice, this plugin is not complete. There is a mixture of n
 
 # Phase 3 - Further challenges 
 
-1. Add a new metric to the plugin, there is enough information in the python file to allow you to do this 
-2. Add a new Stock to the plugin from a new industry
+1. Add the DailyHigh metric to the Overview page on the plugin. Currently you have to click the 'see all metrics' button. 
+2. Add a new metric to the plugin, there is enough information in the python file to allow you to do this 
+3. Add a new Stock to the plugin from a new industry
