@@ -45,7 +45,7 @@ Important notes
 
 13.    If this was successfull you will be able to see metrics via the Technologies tab, look out for one called CustomPluginTechnology 
 
-# Phase 2 - Update the plugin 
+# Phase 2 - Updating the plugin 
 
 As you can probably notice, this plugin is not complete. There is a mixture of names relating to stocks, and names with default values. In this next phase we will be reviewing the python, and editing the JSON. You should create a backup of the files which are are working before making the following changes. 
 
