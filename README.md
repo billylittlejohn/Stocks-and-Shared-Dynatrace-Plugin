@@ -1,5 +1,8 @@
 Important notes
-
+ - This is an ActiveGate Plugin 
+ - The Python that you download and install libraries to is not the same Python that the plugin uses, so you must take note of everythign you install, and add this to the plugins JSON. This will become more apparent during the lab. 
+ - https://www.dynatrace.com/support/help/extend-dynatrace/plugins/activegate-plugins/
+ 
 
 # Phase 1 - Uploading the Plugin 
 
